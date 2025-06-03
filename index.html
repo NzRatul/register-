@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Registration Form</h2>
+          <form action="/action.php">
+            <input type="text" placeholder="Name"><br><br>
+            <input type="text" placeholder="Username"><br><br>
+            <input type="text" placeholder="Email"><br><br>
+            <input type="text" placeholder="Date Of Birth"><br><br>
+            <input type="password" placeholder="Password"><br><br><br>
+            <h3>Select your Institute</h3>
+            <label for="101">
+            <input type="radio" value="SUST" name="Institute" id="101">SUST
+            </label>
+            <label for="102">
+            <input type="radio" value="DU" name="Institute" id="102">DU
+            </label>
+            <input type="radio" value="JU" name="Institute" id="103">JU
+            </label>
+            <input type="radio" value="RU" name="Institute" id="104">DU
+            </label>
+            <br>
+            <h3>Select your Department</h3>
+            <select name="Department" id="100">
+                
+                <option value="cse">CSE</option>
+                <option value="swe">SWE</option>
+                <option value="eee">EEE</option>
+                <option value="ipe">IPE</option>
+                <option value="cep">CEP</option>
+                <option value="cee">CEE</option>
+            </select>
+            <h3>Select your Skills:</h3>
+            <label for="html">
+                <input type="checkbox" value="html" name="skill" id="103">HTML
+            </label>
+            <label for="css">
+                <input type="checkbox" value="css" name="skill" id="104">CSS
+            </label>
+            <label for="js">
+                <input type="checkbox" value="js" name="skill" id="105">JavaScript
+            </label>
+            <br>
+            <h3>Select Your City</h3>
+            <select name="City" id="101">
+            
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Khulna">Khulna</option>
+          </select>
+            <br><br>
+            <textarea name="feedback" id="101" placeholder="Give your feedback" rows="10">Give us your valuable feedback</textarea>
+            <br>
+            <button>Submit</button><br><br><br>
+            <h4><a href="about.html">About us</a></h4>
+          </form>
+
+</body>
+</html>
